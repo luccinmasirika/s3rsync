@@ -1,0 +1,5 @@
+/target
+.env
+*.log
+.s3rsync-journal
+.DS_Store
