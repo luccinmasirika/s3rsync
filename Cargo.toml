@@ -22,7 +22,7 @@ futures = "0.3"
 async-channel = "2"
 
 aws-config = { version = "1", features = ["behavior-version-latest"] }
-aws-sdk-s3 = { version = "1", default-features = false, features = ["sigv4a", "http-1x", "default-https-client", "rt-tokio"] }
+aws-sdk-s3 = { version = "1", default-features = false, features = ["http-1x", "default-https-client", "rt-tokio"] }
 aws-credential-types = "1"
 aws-smithy-types = "1"
 
